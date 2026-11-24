@@ -1,0 +1,692 @@
+[
+ {
+  "repo": "XinyueZ/chat-your-doc",
+  "path": "simple/i-ask.sh",
+  "sha": "25b8f1dc5e84a2c521f35a8bb04e3358c3801301",
+  "bytes": 872
+ },
+ {
+  "repo": "TarsLab/obsidian-tars",
+  "path": "scripts/cors-probe.sh",
+  "sha": "250086b1f93fe6a523c626b1ddde9122166c0a59",
+  "bytes": 6459
+ },
+ {
+  "repo": "remmintan/minefortress",
+  "path": "automation-scripts/generate-changelog.sh",
+  "sha": "697d923752c789d77ec6bc03a7c7d8d4d4892edc",
+  "bytes": 1775
+ },
+ {
+  "repo": "VectorSpaceLab/OmniGen2",
+  "path": "OmniGen2-RL/evaluation/GEdit-Bench/qwen_image_16samples_select_best_editscore_pass4_eval.sh",
+  "sha": "d18eef94366ec1adb8ff63b4b3c90ad5ebcfa814",
+  "bytes": 697
+ },
+ {
+  "repo": "tsinghua-fib-lab/UrbanLLaVA",
+  "path": "examples/mobility.sh",
+  "sha": "c4137ece9100f20c7c7dfb3d9cb807c98f2eaf66",
+  "bytes": 759
+ },
+ {
+  "repo": "iris2hu/nlp-tasks-examples-icip",
+  "path": "llm-api/run.sh",
+  "sha": "4b515254a05f84f9f3dbc1040ba170cc2dbefdbd",
+  "bytes": 1947
+ },
+ {
+  "repo": "mprove-io/mprove",
+  "path": "scripts/dev/check-openai.sh",
+  "sha": "7e63f4ef0caa3895f5199ada16dbba9d214cc3cb",
+  "bytes": 227
+ },
+ {
+  "repo": "yejy53/Echo-4o",
+  "path": "scripts/eval/run_omnicontext.sh",
+  "sha": "fedcd7382817d5ce9b2a1f6f0b55ddf282adb78b",
+  "bytes": 1467
+ },
+ {
+  "repo": "siddhartha-gadgil/LeanAide",
+  "path": "scripts/curlegs.sh",
+  "sha": "da68bd6e45a945db99376fbb0386253a6dbee9c2",
+  "bytes": 1688
+ },
+ {
+  "repo": "hex/claude-council",
+  "path": "scripts/providers/openai.sh",
+  "sha": "9afb2eced1de9ccb962a36fc3c9d9d0273d1540a",
+  "bytes": 7975
+ },
+ {
+  "repo": "jongwooko/distillm-2",
+  "path": "eval/run.sh",
+  "sha": "3bde968ac28c7a389d4b3f32f2e5a6a867199767",
+  "bytes": 835
+ },
+ {
+  "repo": "radareorg/r2ai",
+  "path": "Attic/examples/ai.sh",
+  "sha": "c452244cac82ca4c8905195bef40b9bd54fbd9a5",
+  "bytes": 3992
+ },
+ {
+  "repo": "0xStabby/chatgpt-vim",
+  "path": "plugin/openai_request.sh",
+  "sha": "8d3694a15bbbfafc3ecad734bf082bfad6fb0da5",
+  "bytes": 644
+ },
+ {
+  "repo": "jstrieb/paperify",
+  "path": "paperify.sh",
+  "sha": "2be63b4ecb488b3af012d9df038dfe643d606ff9",
+  "bytes": 32844
+ },
+ {
+  "repo": "genericmilk/docudoodle",
+  "path": "src/Docudoodle.php",
+  "sha": "e32266362051255e46f6a7d691d3bcbede19eb44",
+  "bytes": 52396
+ },
+ {
+  "repo": "lowdigital/late-night-ai",
+  "path": "webserver/openai.php",
+  "sha": "e8291e47a80e7f30b11199108aa227cd3f18a39b",
+  "bytes": 894
+ },
+ {
+  "repo": "AGC007/ChatGPT-APi--PHP",
+  "path": "ChatGPT_API.PHP",
+  "sha": "12b043419ca780dafb7423e813cf7688fdfe08a6",
+  "bytes": 2826
+ },
+ {
+  "repo": "vaishnavid0604/agriculture-portal",
+  "path": "index.php",
+  "sha": "b0d47fe3698cd2b9377dd3f8521013275e85917a",
+  "bytes": 17071
+ },
+ {
+  "repo": "joshclemm/ai-search",
+  "path": "search.php",
+  "sha": "d3adc1a09e7d95601d2e5d17edfc475d438082cc",
+  "bytes": 11098
+ },
+ {
+  "repo": "farzai/viola-php",
+  "path": "src/OpenAI/Client.php",
+  "sha": "8fe079e38b3eaf31e0e16874d323857dd52ecc53",
+  "bytes": 1393
+ },
+ {
+  "repo": "salehhashemi1992/laravel-intelli-git",
+  "path": "src/OpenAi.php",
+  "sha": "6ad2eba141dd3e37f44eb7d9ff78cb4ba099d003",
+  "bytes": 1429
+ },
+ {
+  "repo": "dirk1983/deepseek",
+  "path": "stream.php",
+  "sha": "be98a2e09f8d41c6fcb22a50c4f39ade8b544eb4",
+  "bytes": 4281
+ },
+ {
+  "repo": "netsapiens/netsapiens-webresponder-examples",
+  "path": "php/chatbot/index.php",
+  "sha": "dad0103881b766182a1d2ba5d7345e8136bd5b09",
+  "bytes": 3247
+ },
+ {
+  "repo": "love-ha/liteai-writer",
+  "path": "config.php",
+  "sha": "fec84cb6293c60defb530e0e1a6a7ed36b53eda5",
+  "bytes": 1788
+ },
+ {
+  "repo": "unconv/wp-chatgpt",
+  "path": "src/ChatGPT.php",
+  "sha": "c233546237bec8063967f3028bc72a2126b55d32",
+  "bytes": 2277
+ },
+ {
+  "repo": "bigmedium/sentient-scenes",
+  "path": "config-sample.php",
+  "sha": "21ae518746a8b8e0382d9149be34291eac2bcbb6",
+  "bytes": 974
+ },
+ {
+  "repo": "adamlyttleapps/OpenAI-Proxy-PHP",
+  "path": "openai_proxy.php",
+  "sha": "0ad2b95bec2ca1eef3bb4afd1b88773832ae1970",
+  "bytes": 4590
+ },
+ {
+  "repo": "yedidiaklein/moodle-local_aiquestions",
+  "path": "locallib.php",
+  "sha": "a32f0c959b2cd977b9c02a33dbd62000816d3f29",
+  "bytes": 8138
+ },
+ {
+  "repo": "john-adeojo/custom_websearch_agent",
+  "path": "agent.py",
+  "sha": "24eceaa6c028a3e3cf80d6f169529f22016a5f6f",
+  "bytes": 15828
+ },
+ {
+  "repo": "MAX-API-Next/Academic-Agents-Studio",
+  "path": "crazy_functions/Image_Generate.py",
+  "sha": "9a28b4bd4832fb522cae3bcb89eb8b89dc87b0ec",
+  "bytes": 18222
+ },
+ {
+  "repo": "Optima-CityU/LLM4AD",
+  "path": "example/methods/partevo/task_example_tsp/run_partevo.py",
+  "sha": "8e2e0f91101d91b84b034924bef9ac4f46a9b0d3",
+  "bytes": 2685
+ },
+ {
+  "repo": "vitalliuss/llm-demos",
+  "path": "functions/main.py",
+  "sha": "de473efcec5e9973b082aa8ef8a18d1cded6d9f5",
+  "bytes": 6261
+ },
+ {
+  "repo": "StanfordMIMI/clin-summ",
+  "path": "api/call_api.py",
+  "sha": "dfd319784446b2f20dd8c9b8a0157ec3382ae663",
+  "bytes": 20383
+ },
+ {
+  "repo": "microsoft/SoM",
+  "path": "gpt4v.py",
+  "sha": "1da28c395849fe3147491fdbe1d0b620e9e93b2b",
+  "bytes": 1803
+ },
+ {
+  "repo": "Arivumathi15/IntelliNews_AI",
+  "path": "functions.py",
+  "sha": "a15c7eec12032459e42e87b5de3703111f1c8f53",
+  "bytes": 6322
+ },
+ {
+  "repo": "ashnkumar/llm-full-stack-tutorial",
+  "path": "app/api/routes.py",
+  "sha": "2261c1d83485321aaa0279b7e2c657979dedf04e",
+  "bytes": 2090
+ },
+ {
+  "repo": "namuan/llm-playground",
+  "path": "openai-tools-database.py",
+  "sha": "3d3494f58bc9ad06c8496d7b11a7b0ff132f3d80",
+  "bytes": 7485
+ },
+ {
+  "repo": "jacopotagliabue/foundation-models-for-dbt-entity-matching",
+  "path": "src/original/open_ai_playground.py",
+  "sha": "34f8bce5e5382f7f902b308f63ee5f16ef010081",
+  "bytes": 658
+ },
+ {
+  "repo": "issa533/Euthenix",
+  "path": "functions/main.py",
+  "sha": "f7053fc5b0d43b6ef2d18f42b4991a310ec4f9a8",
+  "bytes": 3212
+ },
+ {
+  "repo": "Undertone0809/promptulate",
+  "path": "promptulate/config.py",
+  "sha": "cf67956226238bc157bef06424c897da96963c51",
+  "bytes": 9726
+ },
+ {
+  "repo": "asaparov/prontoqa",
+  "path": "gpt3.py",
+  "sha": "352a9fc296d37537af689ff08ac34b74be4b21dd",
+  "bytes": 3111
+ },
+ {
+  "repo": "Bilanglosigkeit/reddit-mastodon-bot",
+  "path": "ocr.py",
+  "sha": "3231cd3af2409b980b731a5861115fa64838bc45",
+  "bytes": 4229
+ },
+ {
+  "repo": "soulhighwing/LocalGPT",
+  "path": "api.js",
+  "sha": "7f5a5b71cc9ed06162e7dcbe7908f6e1af730565",
+  "bytes": 14969
+ },
+ {
+  "repo": "Progerance/launchy",
+  "path": "server.js",
+  "sha": "8a71b35182c7922d1f00026617603963c0859116",
+  "bytes": 57568
+ },
+ {
+  "repo": "poisonednumber/Scanner-map",
+  "path": "bot.js",
+  "sha": "d97112e132b1038e86229666e0f82426ad3b4d23",
+  "bytes": 263014
+ },
+ {
+  "repo": "umutcakirai/promqt",
+  "path": "popup.js",
+  "sha": "e0d31479b6862ed9d00bd0ec0dfac172453982f7",
+  "bytes": 7604
+ },
+ {
+  "repo": "qunash/gpt-3_chrome_extension",
+  "path": "api.js",
+  "sha": "d12abc609f03085aeabf59c4d2932a96d2fd5dfe",
+  "bytes": 2418
+ },
+ {
+  "repo": "scripting/chatGptHelloWorld",
+  "path": "code.js",
+  "sha": "6bd7c6c989c933669cec99534b27554ac3f5ab77",
+  "bytes": 1413
+ },
+ {
+  "repo": "alexankitty/Myrient-Search-Engine",
+  "path": "server.js",
+  "sha": "6f41df758ee37d21adb6b67a11fb7005c94dc32c",
+  "bytes": 31398
+ },
+ {
+  "repo": "evaleries/telegram-cf-chatgpt",
+  "path": "bot.js",
+  "sha": "a384b734d5610e16bb901d5ee7d02fbba8102b52",
+  "bytes": 5985
+ },
+ {
+  "repo": "philtsip/aisdr",
+  "path": "index.js",
+  "sha": "47b859c0aea3357cecdb71115ea27f11776061da",
+  "bytes": 8671
+ },
+ {
+  "repo": "antonok-edm/ai-led-matrix-art",
+  "path": "index.js",
+  "sha": "a09b46c74b2bb9e9a320167ad789122d4ca972f6",
+  "bytes": 21404
+ },
+ {
+  "repo": "kamanchi3/CryptoNTbot",
+  "path": "bot.js",
+  "sha": "e29fd7a8e8da488da5e5383e4a104fbe0139b8a5",
+  "bytes": 2464
+ },
+ {
+  "repo": "pesarkhobeee/TabChi",
+  "path": "ai.js",
+  "sha": "e6ce096613e794de964524e1367ec9ef482e03af",
+  "bytes": 4045
+ },
+ {
+  "repo": "accucrazy/AccuGPTsheet",
+  "path": "main.js",
+  "sha": "37d0f5551f09a4db03f309169233ebade06bbb0f",
+  "bytes": 3442
+ },
+ {
+  "repo": "firatkiral/kodibot",
+  "path": "db.js",
+  "sha": "a97de4fbf07834815eb12b94e76ec6ed7b78fed3",
+  "bytes": 7201
+ },
+ {
+  "repo": "HdShare/WAuxiliary_Plugin",
+  "path": "plugins/v127/SauncaiyuPro/AiAutoReply/main.java",
+  "sha": "87a315997420cf71a1e147d8b238df7254ee9361",
+  "bytes": 39099
+ },
+ {
+  "repo": "pshepetko/org.idempiere.chatGPT",
+  "path": "src/org/idempiere/chatGPT/process/chatGPT.java",
+  "sha": "53389e38c15b6bac27dbdcf4b833b5bcad9e83b5",
+  "bytes": 2254
+ },
+ {
+  "repo": "bndtools/bnd",
+  "path": "bndtools.core/src/org/bndtools/refactor/ai/ChatImpl.java",
+  "sha": "823256e849e319018b250eb58ff79af9c8158249",
+  "bytes": 2932
+ },
+ {
+  "repo": "kousen/openaidemo",
+  "path": "src/main/java/com/kousenit/openai/chat/ServiceDemo.java",
+  "sha": "44865ab64f9b7b7dd91516979d2f7e2af4736558",
+  "bytes": 2114
+ },
+ {
+  "repo": "TESTARtool/TESTAR_dev",
+  "path": "testar/src/org/testar/settings/dialog/LlmPanel.java",
+  "sha": "0041a2521f8b8b944e43f967eca54612bd27457a",
+  "bytes": 20491
+ },
+ {
+  "repo": "CENSUS/ghidra-frida-hook-gen",
+  "path": "src/main/java/fridahookgenerator/ChatGPTAPICaller.java",
+  "sha": "06393e852f4a882ad15ccc8f1c0e74f048476df4",
+  "bytes": 18960
+ },
+ {
+  "repo": "mzijin/zijinBI-backend",
+  "path": "src/main/java/com/zijin/api/OpenAiApi.java",
+  "sha": "be09afd46d24b792cb82afa56e23da8ab1215b3e",
+  "bytes": 1132
+ },
+ {
+  "repo": "Apress/ChatGPT-for-Java",
+  "path": "ch2/ChatGPTClient.java",
+  "sha": "4b1773f0a2d9e5299f4d9daf27bc90e725fbef67",
+  "bytes": 4098
+ },
+ {
+  "repo": "dotCMS/core",
+  "path": "dotCMS/src/main/java/com/dotcms/ai/app/AppKeys.java",
+  "sha": "430b4cf05fe47a8d0d0538394f2f984cf994f935",
+  "bytes": 3706
+ },
+ {
+  "repo": "blakemcbride/Kiss",
+  "path": "src/main/core/org/kissweb/llm/OpenAI.java",
+  "sha": "f2157f50b0ab7eb980d5f6355b22c20b229aabad",
+  "bytes": 42956
+ },
+ {
+  "repo": "google/genc",
+  "path": "genc/java/src/java/org/genc/examples/OpenAiDemo.java",
+  "sha": "d528e7ac85933e34af98ca39c66f0bdd5d76a723",
+  "bytes": 3543
+ },
+ {
+  "repo": "tangredtea/Spring-Blog",
+  "path": "src/main/java/com/blog/service/AIService.java",
+  "sha": "a983a44f1ffec6f966c98cec128283be1f589ab8",
+  "bytes": 10530
+ },
+ {
+  "repo": "DraqueT/PolyGlot",
+  "path": "src/main/java/ChatGPTInterface/PChatGptInterface.java",
+  "sha": "426707d2b56cb5d8e176556fc9bca3a2b3e57266",
+  "bytes": 18835
+ },
+ {
+  "repo": "TheBlindM/T-Shell",
+  "path": "server/src/main/java/com/tshell/service/AiServer.java",
+  "sha": "eb7a450d1f1ed21846aba884db1710dc7ca91fba",
+  "bytes": 3620
+ },
+ {
+  "repo": "openGemini/openGemini",
+  "path": "lib/util/lifted/influx/influxql/ast_util.go",
+  "sha": "1763629449c18d928353c17fc9f3cb7086b7ed56",
+  "bytes": 16441
+ },
+ {
+  "repo": "lajosdeme/watchtower",
+  "path": "intel/intel.go",
+  "sha": "56711cbecdc0e613940328be36e2f073062fb2aa",
+  "bytes": 19128
+ },
+ {
+  "repo": "allisonhere/tide",
+  "path": "internal/ai/openai.go",
+  "sha": "4bbce5d5bd1fc5f0d6410c4c5d314c1e0f184f56",
+  "bytes": 1448
+ },
+ {
+  "repo": "Guitaricet/howto",
+  "path": "pkg/openai.go",
+  "sha": "d8ef358bb1ad05015051e760951b72186f15e840",
+  "bytes": 2582
+ },
+ {
+  "repo": "dariubs/goAI",
+  "path": "openai.go",
+  "sha": "372213ad39d0221c10909a433a9298a61d9e659a",
+  "bytes": 3470
+ },
+ {
+  "repo": "mvanhorn/printing-press-library",
+  "path": "library/media-and-entertainment/archive-is/internal/cli/llm.go",
+  "sha": "e7d8af62560e1e250fc73bda13ff580947c377a0",
+  "bytes": 8506
+ },
+ {
+  "repo": "utmstack/UTMStack",
+  "path": "plugins/soc-ai/config/config.go",
+  "sha": "8fd10b478045e5b82a608be33b80cb95fe5d4fcd",
+  "bytes": 8784
+ },
+ {
+  "repo": "antonmedv/howto",
+  "path": "providers.go",
+  "sha": "b4de6857ac5d1585c78cc1bf8da2b133a9761e1e",
+  "bytes": 2368
+ },
+ {
+  "repo": "RezaSi/go-interview-practice",
+  "path": "web-ui/internal/services/ai.go",
+  "sha": "903bdab03323b50c88bfce8a0eb3fe4f0894efd2",
+  "bytes": 24041
+ },
+ {
+  "repo": "shridarpatil/whatomate",
+  "path": "internal/handlers/chatbot_processor.go",
+  "sha": "fcbf2aa9cd4c0f10bb29dcfc7ba4f1f0b76c5bd4",
+  "bytes": 56859
+ },
+ {
+  "repo": "DevXDojo/MrRSS",
+  "path": "internal/ai/openai.go",
+  "sha": "a4727b2b1a3e11d65255abed0f961236a05c5010",
+  "bytes": 5063
+ },
+ {
+  "repo": "flavius-dinu/tfgpt",
+  "path": "pkg/util/chatgpt.go",
+  "sha": "2d27da70962599f7c0023d3af7d5832c9be36ae6",
+  "bytes": 3735
+ },
+ {
+  "repo": "seymahandekli/git-gen",
+  "path": "pkg/platforms/openai.go",
+  "sha": "b60697c83d5c0177ea6c866719dd1bb073374b2a",
+  "bytes": 2940
+ },
+ {
+  "repo": "hoophq/hoop",
+  "path": "sidecar/analyzer/openai/openai.go",
+  "sha": "05afa7856baf9795ce4e32dd2c4f6887e8610447",
+  "bytes": 12090
+ },
+ {
+  "repo": "mckaywrigley/paul-graham-gpt",
+  "path": "utils/index.ts",
+  "sha": "ae2650ba8868a811b4ac13e419868237a23b6f4a",
+  "bytes": 2124
+ },
+ {
+  "repo": "clockless-org/html-anything",
+  "path": "src/llm.ts",
+  "sha": "a973fafb5086038cc7f1fe275de20e1f953dae84",
+  "bytes": 3177
+ },
+ {
+  "repo": "ortegaalfredo/autok-extension",
+  "path": "src/llm.ts",
+  "sha": "528aa89ca195e92325d3b897a2340964af5e317c",
+  "bytes": 3722
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "sha": "1f5a64a33d6e83c2d1c77d235a148316722b83d8",
+  "bytes": 21434
+ },
+ {
+  "repo": "kanbykanby/chatgpt-react",
+  "path": "utils/stream.ts",
+  "sha": "29b4b85261319e59e069452af7a9cded4de07b36",
+  "bytes": 2534
+ },
+ {
+  "repo": "ThaddeusJiang/inamori-kazuo-gpt",
+  "path": "utils/index.ts",
+  "sha": "e04855c892722303dd6f1e97069de624715a61de",
+  "bytes": 2157
+ },
+ {
+  "repo": "batuhanbilginn/ai-blog-post-generator",
+  "path": "lib/openai.ts",
+  "sha": "fd6cd258ba55b38fb369629044ae899f527e74db",
+  "bytes": 2072
+ },
+ {
+  "repo": "f/mood-convert-ampt",
+  "path": "index.ts",
+  "sha": "38e899b7c83caf2ecc0bfaa69a917a70566c626b",
+  "bytes": 1858
+ },
+ {
+  "repo": "Hassanrkbiz/gas-agent",
+  "path": "src/index.ts",
+  "sha": "baa2de25ee90688da0b40e01d0e0baee8d23a6e8",
+  "bytes": 11563
+ },
+ {
+  "repo": "dockercore/Conversation-with-gp4-video",
+  "path": "src/openai.ts",
+  "sha": "39903eec82122ccb9979256ef565140c96fd107d",
+  "bytes": 1888
+ },
+ {
+  "repo": "eisenjimmy/autoTHREADS",
+  "path": "electron/llm.ts",
+  "sha": "a28ef7f20b4709dadd16714eae401d754d95a696",
+  "bytes": 28072
+ },
+ {
+  "repo": "inaniwaudon/kiroro-bot",
+  "path": "src/api/gpt.ts",
+  "sha": "66210cb9c6dc6003c0aa1f6b47625b11d0b983bb",
+  "bytes": 2479
+ },
+ {
+  "repo": "LayBacc/roam-ai",
+  "path": "src/index.ts",
+  "sha": "762620ed83cc30bca30e76cf0793791a1d1d68d2",
+  "bytes": 14401
+ },
+ {
+  "repo": "urvana/appscript-chatgpt",
+  "path": "src/Code.ts",
+  "sha": "b5691a37610773456f844c543f63f09e37cedd85",
+  "bytes": 10565
+ },
+ {
+  "repo": "code-dot-org/code-dot-org",
+  "path": "dashboard/app/helpers/personalization_openai_helper.rb",
+  "sha": "38fc8c7abe2583e15cf9214d129bf5fa2c3d753e",
+  "bytes": 1079
+ },
+ {
+  "repo": "discourse/discourse",
+  "path": "plugins/discourse-ai/spec/lib/discourse_automation/llm_triage_spec.rb",
+  "sha": "18fe2d624842dc0adbd912d8d4f53678fd517189",
+  "bytes": 14132
+ },
+ {
+  "repo": "Multiwoven/multiwoven",
+  "path": "integrations/lib/multiwoven/integrations/core/constants.rb",
+  "sha": "915a151a00443ba95222d53b02e9899b13e830a7",
+  "bytes": 5637
+ },
+ {
+  "repo": "hackclub/hcb",
+  "path": "spec/services/receipt_service/extract_spec.rb",
+  "sha": "876dc11004b38db3e04e2033c4a9f31d2646d4a6",
+  "bytes": 4401
+ },
+ {
+  "repo": "chatwoot/chatwoot",
+  "path": "spec/enterprise/controllers/api/v1/accounts/inboxes/call_announcements_controller_spec.rb",
+  "sha": "6f85442a3059b4ec2bc98fbc0af4421835bcd6c4",
+  "bytes": 9699
+ },
+ {
+  "repo": "alexshapalov/rubyai",
+  "path": "lib/rubyai/configuration.rb",
+  "sha": "ed0bc1b5a8ace1bb52af76e3a310dc503400fbba",
+  "bytes": 827
+ },
+ {
+  "repo": "crmne/ruby_llm",
+  "path": "spec/ruby_llm/evaluation_accounting_spec.rb",
+  "sha": "97446b32c6ddefae9dd2d3657492e985e6de691a",
+  "bytes": 10637
+ },
+ {
+  "repo": "usnationalarchives/federalregister-api-core",
+  "path": "lib/synthetic_query_generator.rb",
+  "sha": "716b82bc55952b8fdde93720760a582a0fcf35b6",
+  "bytes": 2498
+ },
+ {
+  "repo": "usetrmnl/plugins",
+  "path": "lib/chatgpt/chatgpt.rb",
+  "sha": "cd1a9beeb59684d1e2a3b8722fcb8f3ece9465b8",
+  "bytes": 5272
+ },
+ {
+  "repo": "ujh/fountainpencompanion",
+  "path": "spec/agents/youtube_summarizer_spec.rb",
+  "sha": "578c97f5518ac3b8a8a435f806b655c414f6d3b1",
+  "bytes": 5635
+ },
+ {
+  "repo": "fkiene/llmtrim",
+  "path": "crates/llmtrim-uniffi/examples/compress_then_send.rb",
+  "sha": "5b229076ee9c7d1486bc2c3a26309fe75acd50df",
+  "bytes": 1916
+ },
+ {
+  "repo": "activeagents/activeagent",
+  "path": "actionagent/app/jobs/action_agent/sandbox_run_job.rb",
+  "sha": "4008437f4aee13bfa0cef6c5de33c43429033bd2",
+  "bytes": 9158
+ },
+ {
+  "repo": "TarteelAI/quranic-universal-library",
+  "path": "lib/openai_agent.rb",
+  "sha": "44003b5f2abd64963d21b56fafbf2633ccd5836c",
+  "bytes": 1499
+ },
+ {
+  "repo": "FarmBot/Farmbot-Web-App",
+  "path": "app/controllers/api/ais_controller.rb",
+  "sha": "6f6188d1b76a3a69549c654132694d1a8ed9010d",
+  "bytes": 10931
+ },
+ {
+  "repo": "matheusml/zsh-ai",
+  "path": "lib/providers/openai.zsh",
+  "sha": "06d8e121345014eef5b4e7f07c5528d1a3c9bfa5",
+  "bytes": 5268
+ },
+ {
+  "repo": "kylesnowschwartz/zsh-ai-cmd",
+  "path": "providers/openai.zsh",
+  "sha": "1409eced496e41eb3bd4488ac5a96738b5cf26dd",
+  "bytes": 2436
+ },
+ {
+  "repo": "runneth-tools/hook-grader",
+  "path": "lib.mjs",
+  "sha": "3f4eecefdd72a11adc3dd7ea6c8e9d5e2157061d",
+  "bytes": 2960
+ }
+]

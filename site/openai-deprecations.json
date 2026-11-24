@@ -1,0 +1,1949 @@
+{
+  "schema": "callshift/changes/1",
+  "api": "OpenAI API",
+  "to": "2.3.0",
+  "hosts": [
+    "api.openai.com"
+  ],
+  "base_paths": [
+    "/v1"
+  ],
+  "operations": [
+    {
+      "method": "GET",
+      "path": "/agents"
+    },
+    {
+      "method": "POST",
+      "path": "/agents"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/automations"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/automations"
+    },
+    {
+      "method": "DELETE",
+      "path": "/agents/automations/{automation_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/automations/{automation_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/automations/{automation_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/automations/{automation_id}/invocations"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/automations/{automation_id}/invocations"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/automations/{automation_id}/invocations/{invocation_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/automations/{automation_id}/pause"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/automations/{automation_id}/resume"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/environments"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/environments"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/environments/templates"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/environments/templates"
+    },
+    {
+      "method": "DELETE",
+      "path": "/agents/environments/templates/{environment_template_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/environments/templates/{environment_template_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/environments/templates/{environment_template_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/environments/{environment_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/environments/{environment_id}/files"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/environments/{environment_id}/files"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/sessions"
+    },
+    {
+      "method": "DELETE",
+      "path": "/agents/sessions/{session_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/sessions/{session_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/artifacts"
+    },
+    {
+      "method": "DELETE",
+      "path": "/agents/sessions/{session_id}/artifacts/{artifact_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/artifacts/{artifact_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/artifacts/{artifact_id}/content"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/events"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/sessions/{session_id}/events"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/items"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/subagents"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}/items"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}/turns"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}/turns/{turn_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}/turns/{turn_id}/items"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/traces"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/turns"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/turns/{turn_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/sessions/{session_id}/turns/{turn_id}/items"
+    },
+    {
+      "method": "DELETE",
+      "path": "/agents/{agent_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/agents/{agent_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/agents/{agent_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/assistants"
+    },
+    {
+      "method": "POST",
+      "path": "/assistants"
+    },
+    {
+      "method": "DELETE",
+      "path": "/assistants/{assistant_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/assistants/{assistant_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/assistants/{assistant_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/audio/speech"
+    },
+    {
+      "method": "POST",
+      "path": "/audio/transcriptions"
+    },
+    {
+      "method": "POST",
+      "path": "/audio/translations"
+    },
+    {
+      "method": "GET",
+      "path": "/audio/voice_consents"
+    },
+    {
+      "method": "POST",
+      "path": "/audio/voice_consents"
+    },
+    {
+      "method": "DELETE",
+      "path": "/audio/voice_consents/{consent_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/audio/voice_consents/{consent_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/audio/voice_consents/{consent_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/audio/voices"
+    },
+    {
+      "method": "DELETE",
+      "path": "/audio/voices/{voice_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/batches"
+    },
+    {
+      "method": "POST",
+      "path": "/batches"
+    },
+    {
+      "method": "GET",
+      "path": "/batches/{batch_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/batches/{batch_id}/cancel"
+    },
+    {
+      "method": "GET",
+      "path": "/chat/completions"
+    },
+    {
+      "method": "POST",
+      "path": "/chat/completions"
+    },
+    {
+      "method": "DELETE",
+      "path": "/chat/completions/{completion_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/chat/completions/{completion_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/chat/completions/{completion_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/chat/completions/{completion_id}/messages"
+    },
+    {
+      "method": "POST",
+      "path": "/chatkit/sessions"
+    },
+    {
+      "method": "POST",
+      "path": "/chatkit/sessions/{session_id}/cancel"
+    },
+    {
+      "method": "GET",
+      "path": "/chatkit/threads"
+    },
+    {
+      "method": "DELETE",
+      "path": "/chatkit/threads/{thread_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/chatkit/threads/{thread_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/chatkit/threads/{thread_id}/items"
+    },
+    {
+      "method": "POST",
+      "path": "/completions"
+    },
+    {
+      "method": "GET",
+      "path": "/containers"
+    },
+    {
+      "method": "POST",
+      "path": "/containers"
+    },
+    {
+      "method": "DELETE",
+      "path": "/containers/{container_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/containers/{container_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/containers/{container_id}/files"
+    },
+    {
+      "method": "POST",
+      "path": "/containers/{container_id}/files"
+    },
+    {
+      "method": "DELETE",
+      "path": "/containers/{container_id}/files/{file_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/containers/{container_id}/files/{file_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/containers/{container_id}/files/{file_id}/content"
+    },
+    {
+      "method": "POST",
+      "path": "/content_provenance_checks"
+    },
+    {
+      "method": "POST",
+      "path": "/conversations"
+    },
+    {
+      "method": "DELETE",
+      "path": "/conversations/{conversation_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/conversations/{conversation_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/conversations/{conversation_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/conversations/{conversation_id}/items"
+    },
+    {
+      "method": "POST",
+      "path": "/conversations/{conversation_id}/items"
+    },
+    {
+      "method": "DELETE",
+      "path": "/conversations/{conversation_id}/items/{item_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/conversations/{conversation_id}/items/{item_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/decisions"
+    },
+    {
+      "method": "POST",
+      "path": "/embeddings"
+    },
+    {
+      "method": "GET",
+      "path": "/evals"
+    },
+    {
+      "method": "POST",
+      "path": "/evals"
+    },
+    {
+      "method": "DELETE",
+      "path": "/evals/{eval_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/evals/{eval_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/evals/{eval_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/evals/{eval_id}/runs"
+    },
+    {
+      "method": "POST",
+      "path": "/evals/{eval_id}/runs"
+    },
+    {
+      "method": "DELETE",
+      "path": "/evals/{eval_id}/runs/{run_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/evals/{eval_id}/runs/{run_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/evals/{eval_id}/runs/{run_id}/cancel"
+    },
+    {
+      "method": "GET",
+      "path": "/evals/{eval_id}/runs/{run_id}/output_items"
+    },
+    {
+      "method": "GET",
+      "path": "/evals/{eval_id}/runs/{run_id}/output_items/{output_item_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/files"
+    },
+    {
+      "method": "POST",
+      "path": "/files"
+    },
+    {
+      "method": "DELETE",
+      "path": "/files/{file_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/files/{file_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/files/{file_id}/content"
+    },
+    {
+      "method": "POST",
+      "path": "/fine_tuning/alpha/graders/run"
+    },
+    {
+      "method": "POST",
+      "path": "/fine_tuning/alpha/graders/validate"
+    },
+    {
+      "method": "GET",
+      "path": "/fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions"
+    },
+    {
+      "method": "POST",
+      "path": "/fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions"
+    },
+    {
+      "method": "DELETE",
+      "path": "/fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions/{permission_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/fine_tuning/jobs"
+    },
+    {
+      "method": "POST",
+      "path": "/fine_tuning/jobs"
+    },
+    {
+      "method": "GET",
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/cancel"
+    },
+    {
+      "method": "GET",
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/checkpoints"
+    },
+    {
+      "method": "GET",
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/events"
+    },
+    {
+      "method": "POST",
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/pause"
+    },
+    {
+      "method": "POST",
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/resume"
+    },
+    {
+      "method": "POST",
+      "path": "/images/edits"
+    },
+    {
+      "method": "POST",
+      "path": "/images/generations"
+    },
+    {
+      "method": "POST",
+      "path": "/images/variations"
+    },
+    {
+      "method": "POST",
+      "path": "/live/sessions"
+    },
+    {
+      "method": "POST",
+      "path": "/live/sessions/{session_id}/accept"
+    },
+    {
+      "method": "GET",
+      "path": "/live/sessions/{session_id}/content"
+    },
+    {
+      "method": "POST",
+      "path": "/live/sessions/{session_id}/fork"
+    },
+    {
+      "method": "POST",
+      "path": "/live/sessions/{session_id}/hangup"
+    },
+    {
+      "method": "POST",
+      "path": "/live/sessions/{session_id}/refer"
+    },
+    {
+      "method": "POST",
+      "path": "/live/sessions/{session_id}/reject"
+    },
+    {
+      "method": "GET",
+      "path": "/models"
+    },
+    {
+      "method": "DELETE",
+      "path": "/models/{model}"
+    },
+    {
+      "method": "GET",
+      "path": "/models/{model}"
+    },
+    {
+      "method": "POST",
+      "path": "/moderations"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/admin_api_keys"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/admin_api_keys"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/admin_api_keys/{key_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/admin_api_keys/{key_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/audit_logs"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/certificates"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/certificates"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/certificates/activate"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/certificates/deactivate"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/certificates/{certificate_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/certificates/{certificate_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/certificates/{certificate_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/costs"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/data_retention"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/data_retention"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/external_keys"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/external_keys"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/external_keys/{external_key_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/external_keys/{external_key_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/external_keys/{external_key_id}/validate"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/external_storage"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/external_storage"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/external_storage/{external_storage_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/external_storage/{external_storage_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/external_storage/{external_storage_id}/validate"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/groups"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/groups"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/groups/{group_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/groups/{group_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/groups/{group_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/groups/{group_id}/roles"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/groups/{group_id}/roles"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/groups/{group_id}/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/groups/{group_id}/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/groups/{group_id}/users"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/groups/{group_id}/users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/groups/{group_id}/users/{user_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/groups/{group_id}/users/{user_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/invites"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/invites"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/invites/{invite_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/invites/{invite_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/api_keys"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/projects/{project_id}/api_keys/{api_key_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/api_keys/{api_key_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/api_keys/{api_key_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/archive"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/certificates"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/certificates/activate"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/certificates/deactivate"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/data_retention"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/data_retention"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/groups"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/groups"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/projects/{project_id}/groups/{group_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/groups/{group_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/hosted_tool_permissions"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/hosted_tool_permissions"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/projects/{project_id}/model_permissions"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/model_permissions"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/model_permissions"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/rate_limits"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/rate_limits/{rate_limit_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/service_accounts"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/service_accounts"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/projects/{project_id}/service_accounts/{service_account_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/service_accounts/{service_account_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/service_accounts/{service_account_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/service_accounts/{service_account_id}/api_keys"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/service_tier_settings"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/service_tier_settings"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/spend_alerts"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/spend_alerts"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/projects/{project_id}/spend_alerts/{alert_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/spend_alerts/{alert_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/spend_alerts/{alert_id}"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/projects/{project_id}/spend_limit"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/spend_limit"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/spend_limit"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/users"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/projects/{project_id}/users/{user_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/projects/{project_id}/users/{user_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/projects/{project_id}/users/{user_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/roles"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/roles"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/roles/{role_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/spend_alerts"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/spend_alerts"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/spend_alerts/{alert_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/spend_alerts/{alert_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/spend_alerts/{alert_id}"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/spend_limit"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/spend_limit"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/spend_limit"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/audio_speeches"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/audio_transcriptions"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/code_interpreter_sessions"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/completions"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/decisions"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/embeddings"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/file_search_calls"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/images"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/moderations"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/vector_stores"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/usage/web_search_calls"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/users/{user_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/users/{user_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/users/{user_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/users/{user_id}/roles"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/users/{user_id}/roles"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/users/{user_id}/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/users/{user_id}/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/workload_identity_providers"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/workload_identity_providers"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/workload_identity_providers/{workload_identity_provider_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/workload_identity_providers/{workload_identity_provider_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/workload_identity_providers/{workload_identity_provider_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/workload_identity_providers/{workload_identity_provider_id}/federation_rules"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/workload_identity_providers/{workload_identity_provider_id}/federation_rules"
+    },
+    {
+      "method": "DELETE",
+      "path": "/organization/workload_identity_providers/{workload_identity_provider_id}/federation_rules/{workload_identity_federation_rule_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/organization/workload_identity_providers/{workload_identity_provider_id}/federation_rules/{workload_identity_federation_rule_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/organization/workload_identity_providers/{workload_identity_provider_id}/federation_rules/{workload_identity_federation_rule_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/projects/{project_id}/groups/{group_id}/roles"
+    },
+    {
+      "method": "POST",
+      "path": "/projects/{project_id}/groups/{group_id}/roles"
+    },
+    {
+      "method": "DELETE",
+      "path": "/projects/{project_id}/groups/{group_id}/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/projects/{project_id}/groups/{group_id}/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/projects/{project_id}/roles"
+    },
+    {
+      "method": "POST",
+      "path": "/projects/{project_id}/roles"
+    },
+    {
+      "method": "DELETE",
+      "path": "/projects/{project_id}/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/projects/{project_id}/roles/{role_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/projects/{project_id}/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/projects/{project_id}/users/{user_id}/roles"
+    },
+    {
+      "method": "POST",
+      "path": "/projects/{project_id}/users/{user_id}/roles"
+    },
+    {
+      "method": "DELETE",
+      "path": "/projects/{project_id}/users/{user_id}/roles/{role_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/projects/{project_id}/users/{user_id}/roles/{role_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/realtime/calls"
+    },
+    {
+      "method": "POST",
+      "path": "/realtime/calls/{call_id}/accept"
+    },
+    {
+      "method": "POST",
+      "path": "/realtime/calls/{call_id}/hangup"
+    },
+    {
+      "method": "POST",
+      "path": "/realtime/calls/{call_id}/refer"
+    },
+    {
+      "method": "POST",
+      "path": "/realtime/calls/{call_id}/reject"
+    },
+    {
+      "method": "POST",
+      "path": "/realtime/client_secrets"
+    },
+    {
+      "method": "POST",
+      "path": "/realtime/sessions"
+    },
+    {
+      "method": "POST",
+      "path": "/realtime/transcription_sessions"
+    },
+    {
+      "method": "POST",
+      "path": "/realtime/translations/client_secrets"
+    },
+    {
+      "method": "POST",
+      "path": "/responses"
+    },
+    {
+      "method": "POST",
+      "path": "/responses/compact"
+    },
+    {
+      "method": "POST",
+      "path": "/responses/compact?beta=true"
+    },
+    {
+      "method": "POST",
+      "path": "/responses/input_tokens"
+    },
+    {
+      "method": "POST",
+      "path": "/responses/input_tokens?beta=true"
+    },
+    {
+      "method": "DELETE",
+      "path": "/responses/{response_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/responses/{response_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/responses/{response_id}/cancel"
+    },
+    {
+      "method": "POST",
+      "path": "/responses/{response_id}/cancel?beta=true"
+    },
+    {
+      "method": "GET",
+      "path": "/responses/{response_id}/input_items"
+    },
+    {
+      "method": "GET",
+      "path": "/responses/{response_id}/input_items?beta=true"
+    },
+    {
+      "method": "DELETE",
+      "path": "/responses/{response_id}?beta=true"
+    },
+    {
+      "method": "GET",
+      "path": "/responses/{response_id}?beta=true"
+    },
+    {
+      "method": "POST",
+      "path": "/responses?beta=true"
+    },
+    {
+      "method": "GET",
+      "path": "/safety/alerts/{id}"
+    },
+    {
+      "method": "GET",
+      "path": "/safety/cases/{id}"
+    },
+    {
+      "method": "GET",
+      "path": "/skills"
+    },
+    {
+      "method": "POST",
+      "path": "/skills"
+    },
+    {
+      "method": "DELETE",
+      "path": "/skills/{skill_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/skills/{skill_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/skills/{skill_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/skills/{skill_id}/content"
+    },
+    {
+      "method": "GET",
+      "path": "/skills/{skill_id}/versions"
+    },
+    {
+      "method": "POST",
+      "path": "/skills/{skill_id}/versions"
+    },
+    {
+      "method": "DELETE",
+      "path": "/skills/{skill_id}/versions/{version}"
+    },
+    {
+      "method": "GET",
+      "path": "/skills/{skill_id}/versions/{version}"
+    },
+    {
+      "method": "GET",
+      "path": "/skills/{skill_id}/versions/{version}/content"
+    },
+    {
+      "method": "POST",
+      "path": "/threads"
+    },
+    {
+      "method": "POST",
+      "path": "/threads/runs"
+    },
+    {
+      "method": "DELETE",
+      "path": "/threads/{thread_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/threads/{thread_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/threads/{thread_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/threads/{thread_id}/messages"
+    },
+    {
+      "method": "POST",
+      "path": "/threads/{thread_id}/messages"
+    },
+    {
+      "method": "DELETE",
+      "path": "/threads/{thread_id}/messages/{message_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/threads/{thread_id}/messages/{message_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/threads/{thread_id}/messages/{message_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/threads/{thread_id}/runs"
+    },
+    {
+      "method": "POST",
+      "path": "/threads/{thread_id}/runs"
+    },
+    {
+      "method": "GET",
+      "path": "/threads/{thread_id}/runs/{run_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/threads/{thread_id}/runs/{run_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/threads/{thread_id}/runs/{run_id}/cancel"
+    },
+    {
+      "method": "GET",
+      "path": "/threads/{thread_id}/runs/{run_id}/steps"
+    },
+    {
+      "method": "GET",
+      "path": "/threads/{thread_id}/runs/{run_id}/steps/{step_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/threads/{thread_id}/runs/{run_id}/submit_tool_outputs"
+    },
+    {
+      "method": "POST",
+      "path": "/uploads"
+    },
+    {
+      "method": "POST",
+      "path": "/uploads/{upload_id}/cancel"
+    },
+    {
+      "method": "POST",
+      "path": "/uploads/{upload_id}/complete"
+    },
+    {
+      "method": "POST",
+      "path": "/uploads/{upload_id}/parts"
+    },
+    {
+      "method": "GET",
+      "path": "/vaults"
+    },
+    {
+      "method": "POST",
+      "path": "/vaults"
+    },
+    {
+      "method": "DELETE",
+      "path": "/vaults/{vault_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/vaults/{vault_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/vaults/{vault_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/vaults/{vault_id}/credentials"
+    },
+    {
+      "method": "POST",
+      "path": "/vaults/{vault_id}/credentials"
+    },
+    {
+      "method": "DELETE",
+      "path": "/vaults/{vault_id}/credentials/{credential_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/vaults/{vault_id}/credentials/{credential_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/vaults/{vault_id}/credentials/{credential_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/vector_stores"
+    },
+    {
+      "method": "POST",
+      "path": "/vector_stores"
+    },
+    {
+      "method": "DELETE",
+      "path": "/vector_stores/{vector_store_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/vector_stores/{vector_store_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/vector_stores/{vector_store_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/vector_stores/{vector_store_id}/file_batches"
+    },
+    {
+      "method": "GET",
+      "path": "/vector_stores/{vector_store_id}/file_batches/{batch_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/vector_stores/{vector_store_id}/file_batches/{batch_id}/cancel"
+    },
+    {
+      "method": "GET",
+      "path": "/vector_stores/{vector_store_id}/file_batches/{batch_id}/files"
+    },
+    {
+      "method": "GET",
+      "path": "/vector_stores/{vector_store_id}/files"
+    },
+    {
+      "method": "POST",
+      "path": "/vector_stores/{vector_store_id}/files"
+    },
+    {
+      "method": "DELETE",
+      "path": "/vector_stores/{vector_store_id}/files/{file_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/vector_stores/{vector_store_id}/files/{file_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/vector_stores/{vector_store_id}/files/{file_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/vector_stores/{vector_store_id}/files/{file_id}/content"
+    },
+    {
+      "method": "POST",
+      "path": "/vector_stores/{vector_store_id}/search"
+    },
+    {
+      "method": "GET",
+      "path": "/videos"
+    },
+    {
+      "method": "POST",
+      "path": "/videos"
+    },
+    {
+      "method": "POST",
+      "path": "/videos/characters"
+    },
+    {
+      "method": "GET",
+      "path": "/videos/characters/{character_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/videos/edits"
+    },
+    {
+      "method": "POST",
+      "path": "/videos/extensions"
+    },
+    {
+      "method": "DELETE",
+      "path": "/videos/{video_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/videos/{video_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/videos/{video_id}/content"
+    },
+    {
+      "method": "POST",
+      "path": "/videos/{video_id}/remix"
+    },
+    {
+      "method": "GET",
+      "path": "/webhook_endpoints"
+    },
+    {
+      "method": "POST",
+      "path": "/webhook_endpoints"
+    },
+    {
+      "method": "DELETE",
+      "path": "/webhook_endpoints/{webhook_endpoint_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/webhook_endpoints/{webhook_endpoint_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/webhook_endpoints/{webhook_endpoint_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/webhook_endpoints/{webhook_endpoint_id}/rotate_secret"
+    },
+    {
+      "method": "POST",
+      "path": "/webhook_endpoints/{webhook_endpoint_id}/test"
+    },
+    {
+      "method": "GET",
+      "path": "/webhook_event_types"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "GET",
+      "path": "/assistants"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/assistants"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "DELETE",
+      "path": "/assistants/{assistant_id}"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "GET",
+      "path": "/assistants/{assistant_id}"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/assistants/{assistant_id}"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/audio/translations",
+      "hint": "/v1/realtime/translations"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/chat/completions",
+      "in": "body",
+      "name": "function_call",
+      "hint": "tool_choice"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/chat/completions",
+      "in": "body",
+      "name": "functions",
+      "hint": "tools"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/chat/completions",
+      "in": "body",
+      "name": "max_tokens",
+      "hint": "max_completion_tokens",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/chat/completions",
+      "in": "body",
+      "name": "prompt_cache_retention"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/chat/completions",
+      "in": "body",
+      "name": "seed"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/chat/completions",
+      "in": "body",
+      "name": "user",
+      "hint": "safety_identifier"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/conversations",
+      "in": "body",
+      "name": "items[].action.query"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/conversations/{conversation_id}/items",
+      "in": "body",
+      "name": "items[].action.query"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/conversations/{conversation_id}/items",
+      "in": "body",
+      "name": "items[].tools[].connector_id",
+      "hint": "items[].tools[].server_url",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/evals/{eval_id}/runs",
+      "in": "body",
+      "name": "data_source.sampling_params.tools[].connector_id",
+      "hint": "data_source.sampling_params.tools[].server_url",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/fine_tuning/jobs",
+      "in": "body",
+      "name": "hyperparameters",
+      "hint": "method"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/images/edits",
+      "in": "body",
+      "name": "response_format"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/images/edits",
+      "in": "body",
+      "name": "user",
+      "hint": "safety_identifier",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/images/generations",
+      "in": "body",
+      "name": "response_format"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/images/generations",
+      "in": "body",
+      "name": "style"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/images/generations",
+      "in": "body",
+      "name": "user",
+      "hint": "safety_identifier",
+      "safe_rename": true
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/images/variations"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/organization/projects",
+      "in": "body",
+      "name": "geography",
+      "hint": "residency"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/organization/projects/{project_id}",
+      "in": "body",
+      "name": "geography"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/realtime/calls",
+      "in": "body",
+      "name": "session.tools[].connector_id",
+      "hint": "session.tools[].server_url",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/realtime/calls/{call_id}/accept",
+      "in": "body",
+      "name": "tools[].connector_id",
+      "hint": "tools[].server_url",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/realtime/client_secrets",
+      "in": "body",
+      "name": "session.tools[].connector_id",
+      "hint": "session.tools[].server_url",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses",
+      "in": "body",
+      "name": "prompt_cache_retention"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses",
+      "in": "body",
+      "name": "tools[].connector_id",
+      "hint": "tools[].server_url",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses",
+      "in": "body",
+      "name": "truncation"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses",
+      "in": "body",
+      "name": "user",
+      "hint": "safety_identifier"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses/input_tokens",
+      "in": "body",
+      "name": "tools[].connector_id",
+      "hint": "tools[].server_url",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses/input_tokens?beta=true",
+      "in": "body",
+      "name": "tools[].connector_id",
+      "hint": "tools[].server_url",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses?beta=true",
+      "in": "body",
+      "name": "prompt_cache_retention"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses?beta=true",
+      "in": "body",
+      "name": "tools[].connector_id",
+      "hint": "tools[].server_url",
+      "safe_rename": true
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses?beta=true",
+      "in": "body",
+      "name": "truncation"
+    },
+    {
+      "kind": "field-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/responses?beta=true",
+      "in": "body",
+      "name": "user",
+      "hint": "safety_identifier"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "GET",
+      "path": "/videos"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/videos"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/videos/characters"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "GET",
+      "path": "/videos/characters/{character_id}"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/videos/edits"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/videos/extensions"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "DELETE",
+      "path": "/videos/{video_id}"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "GET",
+      "path": "/videos/{video_id}"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "GET",
+      "path": "/videos/{video_id}/content"
+    },
+    {
+      "kind": "op-deprecated",
+      "severity": "deprecated",
+      "method": "POST",
+      "path": "/videos/{video_id}/remix"
+    }
+  ]
+}

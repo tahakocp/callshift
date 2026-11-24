@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>callshift: find the code an API change breaks</title>
+<meta name="description" content="Paste client code, pick an API change set, and see which calls break and the safe renames. Runs in your browser.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<header>
+  <h1>callshift</h1>
+  <p>An API changed. Which lines of your code call the parts that changed? Pick a change set, paste code, and see. Everything runs in this tab; nothing is uploaded.</p>
+  <p class="links"><a href="https://github.com/tahakocp/callshift">Source and CLI</a></p>
+</header>
+<main>
+  <section class="inputs">
+    <label>Change set
+      <select id="preset">
+        <option value="openai">OpenAI API: everything the current spec marks deprecated</option>
+        <option value="shop">Example: Shop API v1 to v2 (edit the specs)</option>
+      </select>
+    </label>
+    <div id="specs" hidden>
+      <div class="pair">
+        <label>Old spec<textarea id="old" spellcheck="false"></textarea></label>
+        <label>New spec<textarea id="new" spellcheck="false"></textarea></label>
+      </div>
+    </div>
+    <p id="setinfo" class="muted"></p>
+    <div class="row">
+      <label>File name <input id="name" value="client.ts" spellcheck="false"></label>
+      <label>Minimum confidence
+        <select id="conf"><option>high</option><option selected>medium</option><option>low</option></select>
+      </label>
+    </div>
+    <textarea id="code" class="code" spellcheck="false" wrap="off"></textarea>
+  </section>
+  <section class="outputs">
+    <h2>Findings <span id="count" class="muted"></span></h2>
+    <ol id="findings"></ol>
+    <h2>Safe fixes</h2>
+    <pre id="diff" class="muted">Loading…</pre>
+  </section>
+</main>
+<footer class="muted">The file name decides the language. Supported: JS/TS, Python, Go, Ruby, Java, Kotlin, C#, Swift, Rust, PHP, Dart, C/C++, shell and YAML.</footer>
+<script src="wasm_exec.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

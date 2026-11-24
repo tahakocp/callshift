@@ -1,0 +1,765 @@
+[
+ {
+  "repo": "AGC007/ChatGPT-APi--PHP",
+  "path": "ChatGPT_API.PHP",
+  "line": 46,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "AGC007/ChatGPT-APi--PHP",
+  "path": "ChatGPT_API.PHP",
+  "line": 88,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "Apress/ChatGPT-for-Java",
+  "path": "ch2/ChatGPTClient.java",
+  "line": 21,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "Apress/ChatGPT-for-Java",
+  "path": "ch2/ChatGPTClient.java",
+  "line": 33,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "Apress/ChatGPT-for-Java",
+  "path": "ch2/ChatGPTClient.java",
+  "line": 101,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "Apress/ChatGPT-for-Java",
+  "path": "ch2/ChatGPTClient.java",
+  "line": 105,
+  "true": true,
+  "note": "POJO field serialized by Jackson"
+ },
+ {
+  "repo": "Arivumathi15/IntelliNews_AI",
+  "path": "functions.py",
+  "line": 170,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "Bilanglosigkeit/reddit-mastodon-bot",
+  "path": "ocr.py",
+  "line": 106,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "Guitaricet/howto",
+  "path": "pkg/openai.go",
+  "line": 40,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "Hassanrkbiz/gas-agent",
+  "path": "src/index.ts",
+  "line": 18,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "Hassanrkbiz/gas-agent",
+  "path": "src/index.ts",
+  "line": 111,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "Hassanrkbiz/gas-agent",
+  "path": "src/index.ts",
+  "line": 157,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "Hassanrkbiz/gas-agent",
+  "path": "src/index.ts",
+  "line": 205,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "Hassanrkbiz/gas-agent",
+  "path": "src/index.ts",
+  "line": 250,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "HdShare/WAuxiliary_Plugin",
+  "path": "plugins/v127/SauncaiyuPro/AiAutoReply/main.java",
+  "line": 366,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "HdShare/WAuxiliary_Plugin",
+  "path": "plugins/v127/SauncaiyuPro/AiAutoReply/main.java",
+  "line": 612,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "HdShare/WAuxiliary_Plugin",
+  "path": "plugins/v127/SauncaiyuPro/AiAutoReply/main.java",
+  "line": 698,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "HdShare/WAuxiliary_Plugin",
+  "path": "plugins/v127/SauncaiyuPro/AiAutoReply/main.java",
+  "line": 722,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "LayBacc/roam-ai",
+  "path": "src/index.ts",
+  "line": 423,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "Progerance/launchy",
+  "path": "server.js",
+  "line": 781,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "Progerance/launchy",
+  "path": "server.js",
+  "line": 790,
+  "true": true,
+  "note": "URL comes from a provider table"
+ },
+ {
+  "repo": "RezaSi/go-interview-practice",
+  "path": "web-ui/internal/services/ai.go",
+  "line": 232,
+  "true": true,
+  "note": "struct tag; URL from config field"
+ },
+ {
+  "repo": "StanfordMIMI/clin-summ",
+  "path": "api/call_api.py",
+  "line": 351,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ThaddeusJiang/inamori-kazuo-gpt",
+  "path": "utils/index.ts",
+  "line": 33,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 323,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 387,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 388,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 392,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 393,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 467,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 482,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 499,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 514,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 572,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 583,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 596,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "ZohaibAhmed/onclaw",
+  "path": "src/next.ts",
+  "line": 607,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "accucrazy/AccuGPTsheet",
+  "path": "main.js",
+  "line": 37,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "activeagents/activeagent",
+  "path": "actionagent/app/jobs/action_agent/sandbox_run_job.rb",
+  "line": 137,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "activeagents/activeagent",
+  "path": "actionagent/app/jobs/action_agent/sandbox_run_job.rb",
+  "line": 181,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "adamlyttleapps/OpenAI-Proxy-PHP",
+  "path": "openai_proxy.php",
+  "line": 59,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "adamlyttleapps/OpenAI-Proxy-PHP",
+  "path": "openai_proxy.php",
+  "line": 63,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "alexankitty/Myrient-Search-Engine",
+  "path": "server.js",
+  "line": 653,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "alexankitty/Myrient-Search-Engine",
+  "path": "server.js",
+  "line": 767,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "alexankitty/Myrient-Search-Engine",
+  "path": "server.js",
+  "line": 817,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "allisonhere/tide",
+  "path": "internal/ai/openai.go",
+  "line": 22,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "antonmedv/howto",
+  "path": "providers.go",
+  "line": 39,
+  "true": true,
+  "note": "struct tag; URL from provider table"
+ },
+ {
+  "repo": "antonok-edm/ai-led-matrix-art",
+  "path": "index.js",
+  "line": 410,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "asaparov/prontoqa",
+  "path": "gpt3.py",
+  "line": 8,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "asaparov/prontoqa",
+  "path": "gpt3.py",
+  "line": 42,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "batuhanbilginn/ai-blog-post-generator",
+  "path": "lib/openai.ts",
+  "line": 24,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "bndtools/bnd",
+  "path": "bndtools.core/src/org/bndtools/refactor/ai/ChatImpl.java",
+  "line": 36,
+  "true": true,
+  "note": "POJO field serialized to the request"
+ },
+ {
+  "repo": "clockless-org/html-anything",
+  "path": "src/llm.ts",
+  "line": 44,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "clockless-org/html-anything",
+  "path": "src/llm.ts",
+  "line": 72,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "dariubs/goAI",
+  "path": "openai.go",
+  "line": 51,
+  "true": true,
+  "note": "URL reaches the call through a struct field"
+ },
+ {
+  "repo": "dockercore/Conversation-with-gp4-video",
+  "path": "src/openai.ts",
+  "line": 49,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "eisenjimmy/autoTHREADS",
+  "path": "electron/llm.ts",
+  "line": 265,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "eisenjimmy/autoTHREADS",
+  "path": "electron/llm.ts",
+  "line": 700,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "eisenjimmy/autoTHREADS",
+  "path": "electron/llm.ts",
+  "line": 725,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "eisenjimmy/autoTHREADS",
+  "path": "electron/llm.ts",
+  "line": 740,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "evaleries/telegram-cf-chatgpt",
+  "path": "bot.js",
+  "line": 116,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "f/mood-convert-ampt",
+  "path": "index.ts",
+  "line": 54,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "firatkiral/kodibot",
+  "path": "db.js",
+  "line": 205,
+  "true": false,
+  "note": "stored assistant settings, not shown to be a request body"
+ },
+ {
+  "repo": "flavius-dinu/tfgpt",
+  "path": "pkg/util/chatgpt.go",
+  "line": 39,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "flavius-dinu/tfgpt",
+  "path": "pkg/util/chatgpt.go",
+  "line": 59,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "genericmilk/docudoodle",
+  "path": "src/Docudoodle.php",
+  "line": 834,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "genericmilk/docudoodle",
+  "path": "src/Docudoodle.php",
+  "line": 997,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "genericmilk/docudoodle",
+  "path": "src/Docudoodle.php",
+  "line": 1115,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "genericmilk/docudoodle",
+  "path": "src/Docudoodle.php",
+  "line": 1175,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "hoophq/hoop",
+  "path": "sidecar/analyzer/openai/openai.go",
+  "line": 140,
+  "true": true,
+  "note": "struct tag; URL reaches the call through a struct field"
+ },
+ {
+  "repo": "inaniwaudon/kiroro-bot",
+  "path": "src/api/gpt.ts",
+  "line": 60,
+  "true": true,
+  "note": "body built by the caller of a wrapper function"
+ },
+ {
+  "repo": "issa533/Euthenix",
+  "path": "functions/main.py",
+  "line": 64,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "jacopotagliabue/foundation-models-for-dbt-entity-matching",
+  "path": "src/original/open_ai_playground.py",
+  "line": 17,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "john-adeojo/custom_websearch_agent",
+  "path": "agent.py",
+  "line": 67,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "john-adeojo/custom_websearch_agent",
+  "path": "agent.py",
+  "line": 82,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "joshclemm/ai-search",
+  "path": "search.php",
+  "line": 136,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "joshclemm/ai-search",
+  "path": "search.php",
+  "line": 173,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "kamanchi3/CryptoNTbot",
+  "path": "bot.js",
+  "line": 59,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "lajosdeme/watchtower",
+  "path": "intel/intel.go",
+  "line": 271,
+  "true": true,
+  "note": "URL comes from a provider table method"
+ },
+ {
+  "repo": "lajosdeme/watchtower",
+  "path": "intel/intel.go",
+  "line": 330,
+  "true": true,
+  "note": "URL comes from a provider table method"
+ },
+ {
+  "repo": "lajosdeme/watchtower",
+  "path": "intel/intel.go",
+  "line": 386,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "lajosdeme/watchtower",
+  "path": "intel/intel.go",
+  "line": 444,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "lowdigital/late-night-ai",
+  "path": "webserver/openai.php",
+  "line": 15,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "matheusml/zsh-ai",
+  "path": "lib/providers/openai.zsh",
+  "line": 56,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "matheusml/zsh-ai",
+  "path": "lib/providers/openai.zsh",
+  "line": 57,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "mckaywrigley/paul-graham-gpt",
+  "path": "utils/index.ts",
+  "line": 29,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "microsoft/SoM",
+  "path": "gpt4v.py",
+  "line": 60,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "mprove-io/mprove",
+  "path": "scripts/dev/check-openai.sh",
+  "line": 4,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "mvanhorn/printing-press-library",
+  "path": "library/media-and-entertainment/archive-is/internal/cli/llm.go",
+  "line": 136,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "mvanhorn/printing-press-library",
+  "path": "library/media-and-entertainment/archive-is/internal/cli/llm.go",
+  "line": 190,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "ortegaalfredo/autok-extension",
+  "path": "src/llm.ts",
+  "line": 29,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "pesarkhobeee/TabChi",
+  "path": "ai.js",
+  "line": 113,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "philtsip/aisdr",
+  "path": "index.js",
+  "line": 132,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "philtsip/aisdr",
+  "path": "index.js",
+  "line": 138,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "philtsip/aisdr",
+  "path": "index.js",
+  "line": 160,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "poisonednumber/Scanner-map",
+  "path": "bot.js",
+  "line": 6344,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "pshepetko/org.idempiere.chatGPT",
+  "path": "src/org/idempiere/chatGPT/process/chatGPT.java",
+  "line": 42,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "qunash/gpt-3_chrome_extension",
+  "path": "api.js",
+  "line": 31,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "remmintan/minefortress",
+  "path": "automation-scripts/generate-changelog.sh",
+  "line": 33,
+  "true": true,
+  "note": "JSON built by jq into a shell variable"
+ },
+ {
+  "repo": "runneth-tools/hook-grader",
+  "path": "lib.mjs",
+  "line": 44,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "salehhashemi1992/laravel-intelli-git",
+  "path": "src/OpenAi.php",
+  "line": 27,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "scripting/chatGptHelloWorld",
+  "path": "code.js",
+  "line": 20,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "shridarpatil/whatomate",
+  "path": "internal/handlers/chatbot_processor.go",
+  "line": 993,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "shridarpatil/whatomate",
+  "path": "internal/handlers/chatbot_processor.go",
+  "line": 1080,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "soulhighwing/LocalGPT",
+  "path": "api.js",
+  "line": 22,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "tangredtea/Spring-Blog",
+  "path": "src/main/java/com/blog/service/AIService.java",
+  "line": 206,
+  "true": true,
+  "note": "URL injected from a Spring @Value default"
+ },
+ {
+  "repo": "umutcakirai/promqt",
+  "path": "popup.js",
+  "line": 110,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ },
+ {
+  "repo": "umutcakirai/promqt",
+  "path": "popup.js",
+  "line": 129,
+  "true": false,
+  "note": "not a request key for OpenAI chat completions (other provider, local variable, parameter, config, or legacy /completions)"
+ },
+ {
+  "repo": "urvana/appscript-chatgpt",
+  "path": "src/Code.ts",
+  "line": 88,
+  "true": true,
+  "note": "request body key sent to /chat/completions"
+ }
+]

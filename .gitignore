@@ -1,0 +1,4 @@
+eval/_corpus/
+/callshift
+/dist/
+*.wasm

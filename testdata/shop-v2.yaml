@@ -1,0 +1,95 @@
+openapi: 3.0.3
+info:
+  title: Shop API
+  version: "2.0"
+servers:
+  - url: https://api.shop.example/v1
+paths:
+  /orders:
+    get:
+      operationId: listOrders
+      parameters:
+        - name: page
+          in: query
+          schema: {type: integer}
+        - name: page_size
+          in: query
+          schema: {type: integer}
+        - name: region
+          in: query
+          required: true
+          schema: {type: string}
+      responses:
+        "200":
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  orders:
+                    type: array
+                    items: {$ref: "#/components/schemas/Order"}
+                  total_count: {type: integer}
+    post:
+      operationId: createOrder
+      requestBody:
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/NewOrder"}
+      responses:
+        "201":
+          description: created
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Order"}
+  /orders/{order_id}:
+    get:
+      operationId: getOrder
+      parameters:
+        - {name: order_id, in: path, required: true, schema: {type: string}}
+      responses:
+        "200":
+          description: ok
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Order"}
+  /orders/{id}/refunds:
+    post:
+      operationId: refundOrder
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+      responses:
+        "200": {description: ok}
+components:
+  schemas:
+    NewOrder:
+      type: object
+      required: [sku, currency]
+      properties:
+        sku: {type: string}
+        quantity: {type: integer}
+        shipping_speed:
+          type: string
+          enum: [standard, express]
+        coupon_code:
+          type: string
+        notes:
+          type: string
+          deprecated: true
+          description: Free text. Use `comment` instead.
+        comment:
+          type: string
+        currency:
+          type: string
+        address:
+          type: object
+          properties:
+            postal_code: {type: string}
+            line1: {type: string}
+    Order:
+      type: object
+      properties:
+        id: {type: string}
+        sku: {type: string}
+        tracking_url: {type: string}

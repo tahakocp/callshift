@@ -1,0 +1,87 @@
+name: callshift
+description: Find the call sites in your code that an API change breaks, from two OpenAPI specs or a change set.
+branding:
+  icon: git-pull-request
+  color: green
+inputs:
+  old:
+    description: Path to the OpenAPI or Swagger spec your code was written against.
+    required: false
+  new:
+    description: Spec of the version you are moving to.
+    required: false
+  spec:
+    description: A single spec. Reports use of anything it marks deprecated.
+    required: false
+  changes:
+    description: A change set JSON written by "callshift diff" (for example one published by the API provider).
+    required: false
+  path:
+    description: Code to scan.
+    default: .
+  min-confidence:
+    description: low, medium or high.
+    default: medium
+  fail-on:
+    description: breaking, deprecated or none.
+    default: breaking
+  exclude:
+    description: Space-separated globs to skip.
+    default: ""
+  sarif:
+    description: Also write callshift.sarif for upload to code scanning.
+    default: "false"
+  version:
+    description: callshift version to install with go install (for example v0.1.0). Defaults to building the version of this action.
+    default: ""
+outputs:
+  findings:
+    description: Number of findings.
+    value: ${{ steps.run.outputs.findings }}
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-go@v5
+      with:
+        go-version: stable
+        cache: false
+    - name: install
+      shell: bash
+      env:
+        VERSION: ${{ inputs.version }}
+        ACTION_PATH: ${{ github.action_path }}
+      run: |
+        if [ -n "$VERSION" ]; then
+          GOBIN="$RUNNER_TEMP" go install "github.com/tahakocp/callshift/cmd/callshift@$VERSION"
+        else
+          # The action's own checkout holds the source of the referenced version.
+          (cd "$ACTION_PATH" && go build -o "$RUNNER_TEMP/callshift" ./cmd/callshift)
+        fi
+    - id: run
+      shell: bash
+      env:
+        OLD: ${{ inputs.old }}
+        NEW: ${{ inputs.new }}
+        SPEC: ${{ inputs.spec }}
+        CHANGES: ${{ inputs.changes }}
+        SCAN_PATH: ${{ inputs.path }}
+        MIN: ${{ inputs.min-confidence }}
+        FAIL_ON: ${{ inputs.fail-on }}
+        EXCLUDE: ${{ inputs.exclude }}
+        SARIF: ${{ inputs.sarif }}
+      run: |
+        args=()
+        [ -n "$OLD" ] && args+=(--old "$OLD")
+        [ -n "$NEW" ] && args+=(--new "$NEW")
+        [ -n "$SPEC" ] && args+=(--spec "$SPEC")
+        [ -n "$CHANGES" ] && args+=(--changes "$CHANGES")
+        for g in $EXCLUDE; do args+=(--exclude "$g"); done
+        cs="$RUNNER_TEMP/callshift"
+        "$cs" scan "${args[@]}" --min-confidence "$MIN" --fail-on none --format json -o "$RUNNER_TEMP/callshift.json" "$SCAN_PATH"
+        n=$(python3 -c 'import json,sys; print(len(json.load(open(sys.argv[1]))["findings"]))' "$RUNNER_TEMP/callshift.json")
+        echo "findings=$n" >> "$GITHUB_OUTPUT"
+        "$cs" scan "${args[@]}" --min-confidence "$MIN" --fail-on none --format md "$SCAN_PATH" >> "$GITHUB_STEP_SUMMARY"
+        if [ "$SARIF" = "true" ]; then
+          "$cs" scan "${args[@]}" --min-confidence "$MIN" --fail-on none --format sarif -o callshift.sarif "$SCAN_PATH"
+        fi
+        "$cs" scan "${args[@]}" --min-confidence "$MIN" --fail-on "$FAIL_ON" "$SCAN_PATH"

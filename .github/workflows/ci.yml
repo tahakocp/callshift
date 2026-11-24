@@ -1,0 +1,55 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - run: go vet ./...
+      - run: go test ./...
+      - run: go build -o callshift-bin ./cmd/callshift
+      - name: diff the example specs
+        shell: bash
+        run: ./callshift-bin diff testdata/shop-v1.yaml testdata/shop-v2.yaml
+
+  wasm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - run: GOOS=js GOARCH=wasm go build -o /dev/null ./cmd/wasm
+
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: write a client that uses the old API
+        run: |
+          mkdir -p /tmp/app
+          cat > /tmp/app/orders.py <<'PY'
+          import requests
+          r = requests.get("https://api.shop.example/v1/orders", params={"per_page": 5, "region": "eu"})
+          PY
+      - id: scan
+        uses: ./
+        with:
+          old: testdata/shop-v1.yaml
+          new: testdata/shop-v2.yaml
+          path: /tmp/app
+          fail-on: none
+      - name: check the output
+        run: |
+          test "${{ steps.scan.outputs.findings }}" = "1"
