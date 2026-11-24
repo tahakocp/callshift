@@ -21,8 +21,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-go@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
         with:
           go-version-file: go.mod
       - name: build
@@ -32,8 +32,8 @@ jobs:
           cp testdata/shop-v1.yaml testdata/shop-v2.yaml public/
           cp "$(go env GOROOT)/lib/wasm/wasm_exec.js" public/ 2>/dev/null || cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" public/
           GOOS=js GOARCH=wasm go build -trimpath -ldflags "-s -w" -o public/callshift.wasm ./cmd/wasm
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: public
       - id: deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

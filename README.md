@@ -110,13 +110,13 @@ Fields: `kind`, `severity` (`breaking` or `deprecated`), `method`, `path`, `in` 
     path: src
     fail-on: breaking
     sarif: true        # writes callshift.sarif
-- uses: github/codeql-action/upload-sarif@v3
+- uses: github/codeql-action/upload-sarif@v4
   if: always()
   with:
     sarif_file: callshift.sarif
 ```
 
-The action also writes a Markdown table to the job summary and sets the output `findings`.
+The action also writes a Markdown table to the job summary and sets the output `findings`. Uploading SARIF needs `permissions: security-events: write` on the job.
 
 ## Numbers
 
